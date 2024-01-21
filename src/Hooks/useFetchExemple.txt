@@ -1,0 +1,21 @@
+import React from 'react';
+import useFetch from '../../Hooks/useFetch';
+
+const App = () => {
+  const { request, data, error, loading } = useFetch();
+  React.useEffect(() => {
+    async function fetchDados() {
+      const { response, json } = await request(
+        'https://ranekapi.origamid.dev/json/api/produto/',
+      );
+    }
+    fetchDados();
+  }, [request]);
+
+  if (error) return <p>{error}</p>;
+  if (loading) return <p>Carregando...</p>;
+  if (data) return <div>{data[0].nome}</div>;
+  else return null;
+};
+
+export default App;
