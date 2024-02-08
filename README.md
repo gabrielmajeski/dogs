@@ -1,8 +1,38 @@
-# React + Vite
+<h1 align="center">Dogs</h1>
+<p align="center">Aplicativo semelhante ao Instagram feito utilizando ReactJS, Custom Hooks, Hooks e JWT, a aplicação conta com um sitema de cadastro,login e mudança de senha funcional, é possível também postar fotos, comentar fotos e ver estatisticas referentes as fotos (Quantidade de visualizações).</p>
+<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## :rocket: Tecnologias ##
+- [ReactJs](https://react.dev/)
+  - Hooks
+  - Custom Hooks
+  - useCallBack
+  - [Victory](https://commerce.nearform.com/open-source/victory/docs/)
+- [Dogs API](https://dogsapi.origamid.dev/)
+  
+ ## ⚙️ Requisitos
 
-Currently, two official plugins are available:
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 🚀 Instalação
+
+
+1. Clone
+```
+$ git clone https://github.com/gabrielmajeski/dogs
+```
+2. Install NPM
+```
+$ npm install
+```
+3. Start!
+```
+$ npm start
+```
+
+
+
+
