@@ -7,6 +7,7 @@
   - Hooks
   - Custom Hooks
   - useCallBack
+  - useReducer
   - [Victory](https://commerce.nearform.com/open-source/victory/docs/)
 - [Dogs API](https://dogsapi.origamid.dev/)
   
