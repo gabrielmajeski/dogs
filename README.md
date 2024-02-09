@@ -1,5 +1,5 @@
 <h1 align="center">Dogs</h1>
-<p align="center">Aplicativo semelhante ao Instagram feito utilizando ReactJS, Custom Hooks, Hooks e JWT, a aplicação conta com um sitema de cadastro,login e mudança de senha funcional, é possível também postar fotos, comentar fotos e ver estatisticas referentes as fotos (Quantidade de visualizações).</p>
+<p align="center">Aplicativo semelhante ao Instagram feito utilizando ReactJS, Custom Hooks, Hooks e JWT, a aplicação conta com um sistema de cadastro, login e mudança de senha funcional, é possível também postar fotos, comentar fotos e ver estatisticas referentes as fotos (Quantidade de visualizações).</p>
 <br>
 
 ## :rocket: Tecnologias ##
