@@ -19,7 +19,9 @@ const App = () => {
           <Header />
           <main className="AppBody">
             <Routes>
-              <Route path="/dogs/" element={<Home />} />
+              {['/', '/dogs/'].map((path, index) => {
+                return <Route path={path} element={<Home />} key={index} />;
+              })}
               <Route path="/login/*" element={<Login />} />
               <Route
                 path="/conta/*"
